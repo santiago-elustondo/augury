@@ -73,6 +73,7 @@
     "d3": "4.5.0",
     "expose-loader": "0.7.1",
     "immutable": "3.7.6",
+    "json5": "^1.0.1",
     "ramda": "0.24.1",
     "redux": "3.7.2",
     "redux-logger": "3.0.6",
