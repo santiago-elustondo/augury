@@ -93,7 +93,7 @@ export class AuguryUIComponent {
     if (!this.isInPopup) {
       this.isPoppedOut = true;
       this.popup = window.open(null, 'Augury UI', 'menubar=no,location=no,resizable=yes,scrollbars=no,status=no');
-      this.popup._auguryParser = this.parser;
+      (<any> this.popup)._auguryParser = this.parser;
       this.popup.document.write(require('to-string-loader!./index.html'));
     }
   }

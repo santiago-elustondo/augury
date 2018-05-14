@@ -5,6 +5,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "skipLibCheck": true,
     "declaration": false,
     "noImplicitAny": false,
     "removeComments": true,
